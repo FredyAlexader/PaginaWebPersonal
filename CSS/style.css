@@ -1,0 +1,128 @@
+body {
+    background-image: url(fondoweb.jpg);
+    background-size: 120vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+figure {
+    width: 10%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.768);
+    float: left;
+    transition: 3s;
+    margin: 0;
+}
+
+.FotoPrincipal {
+    width: 100%;
+    height: 200px;
+}
+
+#titulo {
+    width: 90%;
+    height: 100px;
+    background: cyan;
+    float: left;
+}
+
+#subtitulo {
+    width: 90%;
+    height: 100px;
+    background: #81DAF5;
+    float: left;
+}
+
+#titulo p {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: rgba(68, 44, 248, 0.614);
+    float: left;
+}
+
+.AlinearNav {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    font-size: 25px;
+    color: cyan;
+}
+
+section,
+aside {
+    display: inline-block;
+    margin: 5px 0px 0px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+section {
+    border: 2px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+#articulos {
+    width: 772px;
+}
+
+#article1 {
+    width: 570%;
+    float: left;
+    background-color: red;
+}
+
+#article {
+    float: left;
+    background-color: rgb(10, 63, 60);
+}
+
+aside {
+    width: 180px;
+    position: relative;
+    background-color: #0d9e86;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(227, 227, 227);
+    font-size: 1.1em;
+}
+
+#miproyecto {
+    width: 98%;
+}
+
+section p {
+    padding: 0px 0px;
+}
+
+section h4 p {
+    margin: -10px 0px;
+}
